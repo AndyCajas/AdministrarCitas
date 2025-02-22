@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="app.cita.administrarcitas.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_pacienteFragment"
+            app:destination="@id/pacienteFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_doctorFragment"
+            app:destination="@id/doctorFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_registrarFragment"
+            app:destination="@id/registrarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorFragment"
+        android:name="com.example.appcitas.fragment.DoctorFragment"
+        android:label="fragment_doctor"
+        tools:layout="@layout/fragment_doctor" >
+        <action
+            android:id="@+id/action_doctorFragment_to_verCitaAdministradorFragment"
+            app:destination="@id/verCitaAdministradorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pacienteFragment"
+        android:name="app.cita.administrarcitas.PacienteFragment"
+        android:label="fragment_paciente"
+        tools:layout="@layout/fragment_paciente" >
+        <action
+            android:id="@+id/action_pacienteFragment_to_citaFragment"
+            app:destination="@id/citaFragment" />
+        <action
+            android:id="@+id/action_pacienteFragment_to_editarCItaFragment"
+            app:destination="@id/editarCItaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/citaFragment"
+        android:name="app.cita.administrarcitas.CitaFragment"
+        android:label="fragment_cita"
+        tools:layout="@layout/fragment_cita" />
+    <fragment
+        android:id="@+id/editarCItaFragment"
+        android:name="app.cita.administrarcitas.EditarCItaFragment"
+        android:label="fragment_editar_c_ita"
+        tools:layout="@layout/fragment_editar_c_ita" >
+        <argument
+            android:name="cita"
+            app:argType="com.example.appcitas.model.Cita"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/verCitaAdministradorFragment"
+        android:name="app.cita.administrarcitas.VerCitaAdministradorFragment"
+        android:label="fragment_ver_cita_administrador"
+        tools:layout="@layout/fragment_ver_cita_administrador" >
+        <argument
+            android:name="fecha"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarFragment"
+        android:name="app.cita.administrarcitas.RegistrarFragment"
+        android:label="RegistrarFragment" >
+        <action
+            android:id="@+id/action_registrarFragment_to_pacienteFragment"
+            app:destination="@id/pacienteFragment" />
+    </fragment>
+</navigation>

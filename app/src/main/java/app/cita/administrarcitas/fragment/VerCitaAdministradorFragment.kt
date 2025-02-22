@@ -64,7 +64,7 @@ class VerCitaAdministradorFragment : Fragment() {
                     for (e in snapshot.children){
                         val citaLista = e.getValue(Cita::class.java)
                         if(cita.idAdministrador == citaLista?.idAdministrador){
-                            
+
                         }
 
                     }

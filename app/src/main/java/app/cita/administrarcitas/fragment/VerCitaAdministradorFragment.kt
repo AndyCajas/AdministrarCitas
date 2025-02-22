@@ -59,15 +59,19 @@ class VerCitaAdministradorFragment : Fragment() {
 
     fun modificarCita() {
         madapter.citasselecionadas = { cita ->
-            reference.addValueEventListener(object :ValueEventListener{
+            reference.child(cita.idAdministrador).addValueEventListener(object :ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
-                    for (e in snapshot.children){
-                        val citaLista = e.getValue(Cita::class.java)
-                        if(cita.idAdministrador == citaLista?.idAdministrador){
 
-                        }
+                        val citaLista = snapshot.getValue(Cita::class.java)
 
-                    }
+                            citaLista?.estado=Constants.ACEPTADO
+                    Toast.makeText(requireContext(), citaLista!!.idAdministrador, Toast.LENGTH_SHORT).show()
+                            reference.child(citaLista!!.idAdministrador).setValue(citaLista)
+                            println("esta es la cita modificada ${citaLista}")
+                            madapter.notifyDataSetChanged()
+
+
+
                 }
 
                 override fun onCancelled(error: DatabaseError) {

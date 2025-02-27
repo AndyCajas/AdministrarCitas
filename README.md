@@ -55,4 +55,4 @@ navegación fluida con Navigation Component, y un sistema de notificaciones para
 > <h2>Aplicación</h2>
 
 
-<p>descarga la app 📱👉<a href="imagenes/app_IMC.apk">aqui</a>👈</p>
+<p>descarga la app 📱👉<a href="imagenes">aqui</a>👈</p>

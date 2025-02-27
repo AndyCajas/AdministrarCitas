@@ -1,5 +1,5 @@
 >[!TIP]
-><h1>CALCULO DEL INDICE DE MASA CORPORAL💻</h1>
+><h1>App para agendar citas MEDICAS💻</h1>
 
 >[!NOTE]   
 > <p> Esta aplicación de gestión de citas médicas, desarrollada en Android Studio con Kotlin, permite a los usuarios interactuar en dos modos:

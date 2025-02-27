@@ -10,12 +10,18 @@ Modo Administrador: Tiene control total sobre las citas, permitiendo gestionar t
 La aplicación utiliza Firebase Realtime Database para almacenar y sincronizar los datos en tiempo real. También implementa Material Design,
 navegación fluida con Navigation Component, y un sistema de notificaciones para recordar citas. </p>
 
-<h2>Funcionalidades de la aplicación 📁</h2>
-<p><img src="https://github.com/AndyCajas/IMC/blob/master/imagenes/img_registro.jpg?raw=true" width="100" alt=""> <img src="https://raw.githubusercontent.com/AndyCajas/IMC/refs/heads/master/imagenes/img_login.jpg" alt="" width="100">
-    <img src="https://github.com/AndyCajas/IMC/blob/master/imagenes/img_fp.jpg?raw=true" alt="" width="100">
-    <img src="https://github.com/AndyCajas/IMC/blob/master/imagenes/imgfp1.jpg?raw=true" alt="" width="100">
-    
+<h2>Funcionalidades de la aplicación  Paciente📁</h2>
+<p><img src="https://github.com/AndyCajas/IMC/blob/master/imagenes/img_registro.jpg?raw=true" width="100" alt=""> <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img3_p.jpg?raw=true" alt="" width="100">
+    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img2_p.jpg?raw=true" alt="" width="100">
+    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img1_p.jpg?raw=true" alt="" width="100">
 </p>
+
+<h2>Funcionalidades de la aplicación  Administrador📁</h2>
+<p><img src="https://github.com/AndyCajas/IMC/blob/master/imagenes/img_registro.jpg?raw=true" width="100" alt=""> <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img3_p.jpg?raw=true" alt="" width="100">
+    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img2_p.jpg?raw=true" alt="" width="100">
+    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img1_p.jpg?raw=true" alt="" width="100">
+</p>
+
 
 
 >[!WARNING]

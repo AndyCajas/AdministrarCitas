@@ -17,9 +17,11 @@ navegación fluida con Navigation Component, y un sistema de notificaciones para
 </p>
 
 <h2>Funcionalidades de la aplicación  Administrador📁</h2>
-<p><img src="https://github.com/AndyCajas/IMC/blob/master/imagenes/img_registro.jpg?raw=true" width="100" alt=""> <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img3_p.jpg?raw=true" alt="" width="100">
-    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img2_p.jpg?raw=true" alt="" width="100">
-    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img1_p.jpg?raw=true" alt="" width="100">
+<p>
+  <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img7_i.jpg?raw=true" width="100" alt=""> 
+  <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img6_a.jpg?raw=true" alt="" width="100">
+    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img5_a.jpg?raw=true" alt="" width="100">
+    <img src="https://github.com/AndyCajas/AdministrarCitas/blob/master/imagenes/img4_a.jpg?raw=true" alt="" width="100">
 </p>
 
 
